@@ -7,7 +7,7 @@ const title = 'Simple usage';
 const description = 'Display neighborhood data from a map.';
 
 const demoCode = () => (
-  <MapInfoPanel />
+  <MapInfoPanel title="Title!" />
 );
 
 export default () => storiesOf(displayName, module)

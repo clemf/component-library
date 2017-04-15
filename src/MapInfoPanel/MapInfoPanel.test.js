@@ -1,12 +1,12 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import MapInfoPanel from './MapInfoPanel';
 
 describe('MapInfoPanel', () => {
   it('should have a title prop', () => {
-    const wrapper = shallow(
-      <MapInfoPanel />,
+    const wrapper = mount(
+      <MapInfoPanel title="Title" />,
     );
-    expect(wrapper.props().title).to.exist;
+    expect(wrapper.find('MapInfoPanel').props().title).to.exist;
   });
 });
