@@ -1,7 +1,7 @@
 import React from 'react';
 
-const MapInfoPanel = () => {
+const MapInfoPanel = () => (
   <div>stuff</div>
-};
+);
 
 export default MapInfoPanel;

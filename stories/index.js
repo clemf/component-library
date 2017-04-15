@@ -20,6 +20,7 @@ import dropdownStory from './Dropdown.story';
 import rechartsPie from './RechartsPie.story';
 import heroStory from './Hero.story';
 import scatterplotStory from './Scatterplot.story';
+import mapInfoPanelStory from './MapInfoPanel.story';
 
 import '../src/global.styles.css';
 import '../assets/leaflet.css';
@@ -50,3 +51,4 @@ leafletMap();
 heroStory();
 StamenMap();
 scatterplotStory();
+mapInfoPanelStory();
